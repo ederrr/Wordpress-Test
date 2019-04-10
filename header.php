@@ -4,7 +4,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<?php 
+<?php
 	if( is_front_page(  ) ):
 		$my_class = array( 'class' );
 	else:

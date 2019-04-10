@@ -29,13 +29,14 @@ h1{
 
 }
 
-.artigo img {
+.article img {
 	width: 40%;
 	height: auto;
 	margin: 10px 20px;
 }
-.container {
+.article .container {
+	margin: 10px 20px;
 	display: inline-block;
-	width: calc(59% - 40px);
+	width: calc(59% - 80px);
 	vertical-align: top;
 }
