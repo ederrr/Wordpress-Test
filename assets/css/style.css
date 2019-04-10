@@ -3,7 +3,7 @@ body{
 	margin: 0;
 }
 h1{
-	color: white;
+	color: lightseagreen;
 }
 
 #menu-main-navigation {
@@ -39,4 +39,30 @@ h1{
 	display: inline-block;
 	width: calc(59% - 80px);
 	vertical-align: top;
+}
+
+.buttons-pagination{
+	text-align: center;
+	margin: 30px;
+}
+.buttons-pagination a{
+	display:inline-block;
+	width: 100px;
+	text-decoration: none;
+	color: white;
+	background-color: lightseagreen;
+	border: solid 1px black;
+	padding: 10px;
+	border-radius: 7px;
+}
+.buttons-pagination a:hover{
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: darkslategrey;
+}
+a:hover {
+	color: lightseagreen;
+	font-weight: bold;
 }

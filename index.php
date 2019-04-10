@@ -13,6 +13,9 @@
 	</div>
 	<?php get_sidebar( );																		/*adiciona um trecho php do arquivo sidebar */
 	?>
+	<div class="buttons-pagination">
+	<?php next_posts_link('Antigos'); ?><?php previous_posts_link('Recentes'); ?>
+	</div>
 
 <?php get_footer();																				/*adiciona um trecho php do arquivo footer */
 ?>

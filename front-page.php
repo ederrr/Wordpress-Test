@@ -5,7 +5,7 @@
 		$args = array(
 			'type' => 'post',
 			'posts_per_page' => 2,
-			'offset' => 1, 																		/* em qual post iniciar, -1 para infinito */
+			'offset' => 2, 																		/* em qual post iniciar, -1 para infinito */
 			/* 'cat' => 3,																		categoria usando ID da categoria */
 			/* 'category_name' => 'news',														categoria usando nome da categoria */
 			/* 'category__in' => array(1,2,8), 													IDs das categorias que devem aparecer*/
@@ -18,8 +18,7 @@
 			
 			while ($lastBlog->have_posts()) : $lastBlog->the_post(  );
 				get_template_part( 'content', get_post_format(  ) );
-			endwhile ?>
-		<?php else: ?>
+			endwhile; else: ?>
 		<div class="article">
 			<p>Lamentamos mas não foram encontrados artigos.</p>
 		</div>
