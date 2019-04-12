@@ -14,7 +14,7 @@
 	<?php get_sidebar( );																		/*adiciona um trecho php do arquivo sidebar */
 	?>
 	<div class="buttons-pagination">
-	<?php next_posts_link('Antigos'); ?><?php previous_posts_link('Recentes'); ?>
+	<?php next_posts_link('Antigos');  previous_posts_link('Recentes'); ?>						<!-- apresenta os botoes de paginacao para conjuntos de posts -->
 	</div>
 
 <?php get_footer();																				/*adiciona um trecho php do arquivo footer */
